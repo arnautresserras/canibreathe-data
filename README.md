@@ -11,7 +11,7 @@ Static data repository for the [canIbreathe](https://github.com/arnautresserras/
 ## Fetch URL
 
 ```
-https://raw.githubusercontent.com/arnautresserras/canibreathe-data/main/season-calendars.json
+https://raw.githubusercontent.com/arnautresserras/canibreathe-data/master/season-calendars.json
 ```
 
 ---
