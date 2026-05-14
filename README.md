@@ -86,8 +86,6 @@ All possible keys, matching the app's internal identifiers:
 | `fagus` | FAGU | Beech |
 | `palmae` | PALM | Palm |
 | `betula` | BETU | Birch |
-| `artemisia` | — | Mugwort |
-| `ambrosia` | — | Ragweed |
 
 ---
 
