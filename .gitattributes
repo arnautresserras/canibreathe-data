@@ -1,0 +1,6 @@
+# Snapshots are written by a Linux CI runner and sometimes re-run locally on
+# Windows. Pin LF so a local run doesn't produce whole-file diffs.
+*.json text eol=lf
+*.mjs  text eol=lf
+*.yml  text eol=lf
+*.md   text eol=lf

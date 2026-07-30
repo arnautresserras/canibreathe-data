@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "description": "PIA aerobiology stations. Coordinates are fallbacks only — the snapshot script prefers the exact trap coordinates reported by the PIA API itself.",
+  "stations": [
+    { "id": "bellaterra", "name": "Bellaterra", "lat": 41.5012, "lng": 2.1095, "region": "Vallès Occidental" },
+    { "id": "barcelona",  "name": "Barcelona",  "lat": 41.3874, "lng": 2.1686, "region": "Barcelonès" },
+    { "id": "girona",     "name": "Girona",     "lat": 41.9794, "lng": 2.8214, "region": "Gironès" },
+    { "id": "lleida",     "name": "Lleida",     "lat": 41.6176, "lng": 0.62,   "region": "Segrià" },
+    { "id": "manresa",    "name": "Manresa",    "lat": 41.7286, "lng": 1.8264, "region": "Bages" },
+    { "id": "roquetes",   "name": "Roquetes",   "lat": 40.8167, "lng": 0.4952, "region": "Baix Ebre" },
+    { "id": "tarragona",  "name": "Tarragona",  "lat": 41.1189, "lng": 1.2445, "region": "Tarragonès" },
+    { "id": "vielha",     "name": "Vielha",     "lat": 42.7025, "lng": 0.7958, "region": "Val d'Aran" },
+    { "id": "balears",    "name": "Palma",      "lat": 39.5696, "lng": 2.6502, "region": "Illes Balears" }
+  ]
+}

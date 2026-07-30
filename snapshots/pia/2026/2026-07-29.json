@@ -3,7 +3,7 @@
   "source": "PIA — Punt d'Informació Aerobiològica (aerobiologia.cat), CC BY-NC-SA 4.0",
   "note": "Raw API payloads, verbatim. The weekly forecast is one level (0-4) plus a trend symbol per taxon; the taxon set varies week to week.",
   "date": "2026-07-29",
-  "fetchedAtUtc": "2026-07-29T20:53:31.693Z",
+  "fetchedAtUtc": "2026-07-29T20:58:20.508Z",
   "stationMeta": {
     "bellaterra": {
       "lat": 41.500604,

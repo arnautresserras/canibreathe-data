@@ -3,7 +3,7 @@
   "source": "Open-Meteo (CAMS Europe pollen + ICON/best-match weather)",
   "note": "Hourly pollen aggregated to per-day mean/max. Forecast horizon 5 days from 2026-07-29.",
   "date": "2026-07-29",
-  "fetchedAtUtc": "2026-07-29T20:53:31.693Z",
+  "fetchedAtUtc": "2026-07-29T20:58:20.508Z",
   "stations": {
     "bellaterra": {
       "ok": true,

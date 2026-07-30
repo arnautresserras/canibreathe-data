@@ -1,0 +1,74 @@
+name: Snapshot forecasts
+
+# Captures each source's published forecast once a day. The PIA public broadcast
+# is overwritten weekly and archived nowhere, so a missed run is verification
+# data lost for good — keep this workflow enabled.
+#
+# Note: GitHub disables scheduled workflows in repos with no activity for 60
+# days. The daily commit from this job is what keeps it alive; if the schedule
+# ever goes quiet, re-enable it in the Actions tab.
+
+on:
+  schedule:
+    # 05:10 UTC daily — after PIA's weekly publication settles, before European
+    # users open the app. GitHub may delay scheduled runs under load; harmless
+    # here, since the payload is a whole-day (PIA: whole-week) forecast.
+    - cron: '10 5 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Snapshot label (YYYY-MM-DD). Defaults to today in Europe/Madrid.'
+        required: false
+        type: string
+      sources:
+        description: 'Comma-separated subset: pia,openmeteo,google'
+        required: false
+        default: 'pia,openmeteo,google'
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: snapshot-forecasts
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # continue-on-error so a partial or total source outage still commits
+      # whatever was captured; the guard step below re-surfaces the failure.
+      - name: Fetch snapshots
+        id: snap
+        continue-on-error: true
+        env:
+          SNAPSHOT_DATE: ${{ inputs.date }}
+          SOURCES: ${{ inputs.sources || 'pia,openmeteo,google' }}
+          GOOGLE_POLLEN_API_KEY: ${{ secrets.GOOGLE_POLLEN_API_KEY }}
+        run: node scripts/snapshot-forecasts.mjs
+
+      - name: Commit snapshots
+        run: |
+          if [ -z "$(git status --porcelain snapshots)" ]; then
+            echo "No new snapshot data — nothing to commit."
+            exit 0
+          fi
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add snapshots
+          git commit -m "chore(snapshots): forecast capture $(date -u +%Y-%m-%d)"
+          # Retry once against a concurrent push (e.g. a manual calendar edit).
+          git push || (git pull --rebase --autostash && git push)
+
+      - name: Fail if the snapshot step failed
+        if: steps.snap.outcome == 'failure'
+        run: |
+          echo "::error::Forecast snapshot failed — see the 'Fetch snapshots' step. PIA data for this day may be unrecoverable."
+          exit 1
