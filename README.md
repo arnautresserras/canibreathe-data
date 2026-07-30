@@ -59,7 +59,13 @@ The pollen level scale:
 
 ### Allergen keys
 
-All possible keys, matching the app's internal identifiers:
+All possible keys, in the same order as `AllergenKey` in
+[`src/services/pollenData/pollenDataTypes.ts`](https://github.com/arnautresserras/canIbreathe/blob/master/src/services/pollenData/pollenDataTypes.ts).
+Keep the two lists in sync — this table is the contract for `season-calendars.json`,
+and a key the app doesn't know is silently ignored at runtime.
+
+`artemisia` and `ambrosia` have no PIA code: no station traps them, so their calendar
+rows come from the EAN European Pollen Calendar rather than a PIA PDF.
 
 | Key | PIA code | Common name |
 |---|---|---|
@@ -87,7 +93,11 @@ All possible keys, matching the app's internal identifiers:
 | `amaranthaceae` | QUAM | Goosefoot family |
 | `fagus` | FAGU | Beech |
 | `palmae` | PALM | Palm |
+| `castanea` | CAST | Chestnut |
+| `ligustrum` | LIGU | Privet |
 | `betula` | BETU | Birch |
+| `artemisia` | — | Mugwort |
+| `ambrosia` | — | Ragweed |
 
 ---
 
@@ -158,15 +168,32 @@ Node 20+, zero dependencies. The job exits non-zero only when **all** PIA statio
 fail, since PIA is the one irreplaceable source; partial failures are recorded per
 station inside the snapshot file and still committed.
 
-### Google Pollen needs its own key
+### Google Pollen uses its own key
 
-The `EXPO_PUBLIC_GOOGLE_POLLEN_API_KEY` shipped in the app binary is restricted to
-Android/iOS applications and **will be rejected from CI**. To capture Google
-forecasts, create a second Google Cloud key restricted to the Pollen API only,
-with a low daily quota (45 requests/day covers 9 stations), and add it as the
-`GOOGLE_POLLEN_API_KEY` repository secret. GitHub Actions runners have no static
-IPs, so an IP restriction is not an option — the quota cap is the containment.
-Until that secret exists, the job skips Google and keeps going.
+The keys shipped in the app binary (`EXPO_PUBLIC_GOOGLE_POLLEN_API_KEY_IOS` and
+`..._ANDROID`) carry Android/iOS application restrictions and **are rejected from
+CI**. Google capture therefore uses a third, server-side key — bare
+`GOOGLE_POLLEN_API_KEY`, set as a **repository** secret (in place since
+2026-07-30).
+
+That key has no application restriction, since GitHub-hosted runners draw from
+thousands of rotating IP ranges. Its containment is instead:
+
+- an API restriction to the **Pollen API only**, and
+- a **daily quota cap** — 9 stations × 1 call/day, worst case 27 with 5xx retries,
+  so ~50/day leaves room for manual backfills while still tripping on abuse.
+  Note that Pollen API quotas are **per Cloud project, not per key**: capping a
+  project shared with the app keys would throttle the apps too.
+
+Two things to keep in mind when touching this:
+
+- **A missing key is a warning, not a failure.** The job skips Google, stays
+  green, and the day's Google forecast is gone. The likeliest cause is creating
+  the secret as an *environment* secret while the workflow declares no
+  `environment:` — `secrets.GOOGLE_POLLEN_API_KEY` then resolves to `''`.
+- **The key travels in the URL query string.** Snapshots are committed to this
+  public repo, so never write a request URL into a snapshot payload or error
+  field — that would publish the key permanently in git history.
 
 ### Measured concentration data does not belong here
 

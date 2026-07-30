@@ -297,9 +297,7 @@ if (requested.includes('openmeteo')) {
 if (requested.includes('google')) {
   const apiKey = process.env.GOOGLE_POLLEN_API_KEY;
   if (!apiKey) {
-    // The key shipped in the app binary is restricted to Android/iOS apps and
-    // will be rejected from CI. This needs its own server-side key — see README.
-    console.warn('  google: skipped — GOOGLE_POLLEN_API_KEY not set');
+    console.warn('  google: skipped — GOOGLE_POLLEN_API_KEY not set (repo secret missing, or scoped to an environment the job does not declare)');
   } else {
     written.push(await writeSnapshot('google', date, {
       schema: 1,
