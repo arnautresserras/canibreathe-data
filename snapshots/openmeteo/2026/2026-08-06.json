@@ -1,0 +1,2673 @@
+{
+  "schema": 1,
+  "source": "Open-Meteo (CAMS Europe pollen + ICON/best-match weather)",
+  "note": "Hourly pollen aggregated to per-day mean/max. Forecast horizon 5 days from 2026-08-06.",
+  "date": "2026-08-06",
+  "fetchedAtUtc": "2026-08-06T07:47:29.696Z",
+  "stations": {
+    "bellaterra": {
+      "ok": true,
+      "coords": {
+        "lat": 41.500604,
+        "lng": 2.108034
+      },
+      "pollen": {
+        "2026-08-06": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 2.61,
+            "max": 4.4,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0.07,
+            "max": 0.1,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.06,
+            "max": 0.1,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 35.21,
+            "max": 61,
+            "hours": 24
+          }
+        },
+        "2026-08-07": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 1.63,
+            "max": 2.3,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.08,
+            "max": 0.1,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 32.5,
+            "max": 57,
+            "hours": 24
+          }
+        },
+        "2026-08-08": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 1.35,
+            "max": 2.8,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.03,
+            "max": 0.1,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 33.33,
+            "max": 48,
+            "hours": 24
+          }
+        },
+        "2026-08-09": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "grass_pollen": {
+            "mean": 1.27,
+            "max": 1.7,
+            "hours": 3
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "ragweed_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "european_aqi": {
+            "mean": 35.75,
+            "max": 49,
+            "hours": 24
+          }
+        },
+        "2026-08-10": {
+          "alder_pollen": null,
+          "birch_pollen": null,
+          "grass_pollen": null,
+          "mugwort_pollen": null,
+          "olive_pollen": null,
+          "ragweed_pollen": null,
+          "european_aqi": {
+            "mean": 32.38,
+            "max": 59,
+            "hours": 16
+          }
+        }
+      },
+      "units": {
+        "time": "iso8601",
+        "alder_pollen": "grains/m³",
+        "birch_pollen": "grains/m³",
+        "grass_pollen": "grains/m³",
+        "mugwort_pollen": "grains/m³",
+        "olive_pollen": "grains/m³",
+        "ragweed_pollen": "grains/m³",
+        "european_aqi": "EAQI"
+      },
+      "weather": {
+        "time": [
+          "2026-08-06",
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10"
+        ],
+        "weather_code": [
+          80,
+          80,
+          3,
+          1,
+          3
+        ],
+        "temperature_2m_max": [
+          32.4,
+          33.9,
+          34.5,
+          36,
+          32.7
+        ],
+        "temperature_2m_min": [
+          22.1,
+          23.5,
+          22.9,
+          23,
+          22
+        ],
+        "temperature_2m_mean": [
+          27.6,
+          28.7,
+          28.9,
+          29.3,
+          27.9
+        ],
+        "relative_humidity_2m_mean": [
+          68,
+          71,
+          67,
+          63,
+          64
+        ],
+        "precipitation_sum": [
+          2.2,
+          0.6,
+          0,
+          0,
+          0
+        ],
+        "rain_sum": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "precipitation_hours": [
+          3,
+          4,
+          0,
+          0,
+          0
+        ],
+        "wind_speed_10m_max": [
+          13.7,
+          15.2,
+          17.3,
+          17.9,
+          17.8
+        ],
+        "wind_gusts_10m_max": [
+          29.2,
+          32.4,
+          36,
+          36.4,
+          36.7
+        ],
+        "wind_direction_10m_dominant": [
+          184,
+          188,
+          202,
+          188,
+          125
+        ],
+        "shortwave_radiation_sum": [
+          19.38,
+          23.54,
+          24.62,
+          25.86,
+          25.14
+        ],
+        "et0_fao_evapotranspiration": [
+          4.34,
+          5.43,
+          5.77,
+          6.28,
+          5.54
+        ]
+      },
+      "weatherUnits": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "temperature_2m_mean": "°C",
+        "relative_humidity_2m_mean": "%",
+        "precipitation_sum": "mm",
+        "rain_sum": "mm",
+        "precipitation_hours": "h",
+        "wind_speed_10m_max": "km/h",
+        "wind_gusts_10m_max": "km/h",
+        "wind_direction_10m_dominant": "°",
+        "shortwave_radiation_sum": "MJ/m²",
+        "et0_fao_evapotranspiration": "mm"
+      }
+    },
+    "barcelona": {
+      "ok": true,
+      "coords": {
+        "lat": 41.393728,
+        "lng": 2.164922
+      },
+      "pollen": {
+        "2026-08-06": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 1.28,
+            "max": 2.1,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0.1,
+            "max": 0.2,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.04,
+            "max": 0.1,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 33.17,
+            "max": 53,
+            "hours": 24
+          }
+        },
+        "2026-08-07": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 0.72,
+            "max": 1,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0.04,
+            "max": 0.1,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.04,
+            "max": 0.1,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 29.54,
+            "max": 42,
+            "hours": 24
+          }
+        },
+        "2026-08-08": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 0.55,
+            "max": 0.9,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.03,
+            "max": 0.1,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 30.67,
+            "max": 41,
+            "hours": 24
+          }
+        },
+        "2026-08-09": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "grass_pollen": {
+            "mean": 0.2,
+            "max": 0.2,
+            "hours": 3
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "ragweed_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "european_aqi": {
+            "mean": 36.96,
+            "max": 49,
+            "hours": 24
+          }
+        },
+        "2026-08-10": {
+          "alder_pollen": null,
+          "birch_pollen": null,
+          "grass_pollen": null,
+          "mugwort_pollen": null,
+          "olive_pollen": null,
+          "ragweed_pollen": null,
+          "european_aqi": {
+            "mean": 33.81,
+            "max": 47,
+            "hours": 16
+          }
+        }
+      },
+      "units": {
+        "time": "iso8601",
+        "alder_pollen": "grains/m³",
+        "birch_pollen": "grains/m³",
+        "grass_pollen": "grains/m³",
+        "mugwort_pollen": "grains/m³",
+        "olive_pollen": "grains/m³",
+        "ragweed_pollen": "grains/m³",
+        "european_aqi": "EAQI"
+      },
+      "weather": {
+        "time": [
+          "2026-08-06",
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10"
+        ],
+        "weather_code": [
+          3,
+          3,
+          3,
+          1,
+          3
+        ],
+        "temperature_2m_max": [
+          31.1,
+          32.1,
+          32.3,
+          32.9,
+          30.9
+        ],
+        "temperature_2m_min": [
+          24.7,
+          25.4,
+          24.9,
+          25,
+          25.4
+        ],
+        "temperature_2m_mean": [
+          28.1,
+          28.5,
+          28.7,
+          29,
+          28.3
+        ],
+        "relative_humidity_2m_mean": [
+          72,
+          74,
+          72,
+          68,
+          77
+        ],
+        "precipitation_sum": [
+          0.8,
+          0,
+          0,
+          0,
+          0
+        ],
+        "rain_sum": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "precipitation_hours": [
+          3,
+          0,
+          0,
+          0,
+          0
+        ],
+        "wind_speed_10m_max": [
+          14.6,
+          16.8,
+          18.9,
+          15.7,
+          13.3
+        ],
+        "wind_gusts_10m_max": [
+          38.9,
+          40.7,
+          44.6,
+          39.6,
+          34.6
+        ],
+        "wind_direction_10m_dominant": [
+          198,
+          207,
+          218,
+          210,
+          98
+        ],
+        "shortwave_radiation_sum": [
+          20.15,
+          24.75,
+          24.88,
+          26.06,
+          24.13
+        ],
+        "et0_fao_evapotranspiration": [
+          4.46,
+          5.35,
+          5.46,
+          5.74,
+          4.94
+        ]
+      },
+      "weatherUnits": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "temperature_2m_mean": "°C",
+        "relative_humidity_2m_mean": "%",
+        "precipitation_sum": "mm",
+        "rain_sum": "mm",
+        "precipitation_hours": "h",
+        "wind_speed_10m_max": "km/h",
+        "wind_gusts_10m_max": "km/h",
+        "wind_direction_10m_dominant": "°",
+        "shortwave_radiation_sum": "MJ/m²",
+        "et0_fao_evapotranspiration": "mm"
+      }
+    },
+    "girona": {
+      "ok": true,
+      "coords": {
+        "lat": 41.984172,
+        "lng": 2.82325
+      },
+      "pollen": {
+        "2026-08-06": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 3.06,
+            "max": 4,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0.14,
+            "max": 0.2,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.08,
+            "max": 0.2,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 33.63,
+            "max": 51,
+            "hours": 24
+          }
+        },
+        "2026-08-07": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 2.31,
+            "max": 4.2,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0.06,
+            "max": 0.2,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.07,
+            "max": 0.1,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 34.54,
+            "max": 54,
+            "hours": 24
+          }
+        },
+        "2026-08-08": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 1.91,
+            "max": 3.4,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0.05,
+            "max": 0.3,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.09,
+            "max": 0.2,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 33.96,
+            "max": 53,
+            "hours": 24
+          }
+        },
+        "2026-08-09": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "grass_pollen": {
+            "mean": 0.8,
+            "max": 1,
+            "hours": 3
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "ragweed_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "european_aqi": {
+            "mean": 34.83,
+            "max": 49,
+            "hours": 24
+          }
+        },
+        "2026-08-10": {
+          "alder_pollen": null,
+          "birch_pollen": null,
+          "grass_pollen": null,
+          "mugwort_pollen": null,
+          "olive_pollen": null,
+          "ragweed_pollen": null,
+          "european_aqi": {
+            "mean": 28.38,
+            "max": 55,
+            "hours": 16
+          }
+        }
+      },
+      "units": {
+        "time": "iso8601",
+        "alder_pollen": "grains/m³",
+        "birch_pollen": "grains/m³",
+        "grass_pollen": "grains/m³",
+        "mugwort_pollen": "grains/m³",
+        "olive_pollen": "grains/m³",
+        "ragweed_pollen": "grains/m³",
+        "european_aqi": "EAQI"
+      },
+      "weather": {
+        "time": [
+          "2026-08-06",
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10"
+        ],
+        "weather_code": [
+          3,
+          80,
+          45,
+          1,
+          3
+        ],
+        "temperature_2m_max": [
+          35,
+          34.5,
+          35.6,
+          38.2,
+          35.8
+        ],
+        "temperature_2m_min": [
+          22,
+          22.3,
+          22.7,
+          22.7,
+          21.2
+        ],
+        "temperature_2m_mean": [
+          28.1,
+          27.8,
+          29.2,
+          29.9,
+          28.4
+        ],
+        "relative_humidity_2m_mean": [
+          62,
+          68,
+          69,
+          59,
+          63
+        ],
+        "precipitation_sum": [
+          0.3,
+          1.3,
+          0,
+          0,
+          0
+        ],
+        "rain_sum": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "precipitation_hours": [
+          2,
+          4,
+          0,
+          0,
+          0
+        ],
+        "wind_speed_10m_max": [
+          16.5,
+          16.4,
+          20,
+          31,
+          21.3
+        ],
+        "wind_gusts_10m_max": [
+          33.1,
+          31.7,
+          37.8,
+          58.3,
+          41.4
+        ],
+        "wind_direction_10m_dominant": [
+          251,
+          196,
+          196,
+          191,
+          181
+        ],
+        "shortwave_radiation_sum": [
+          21.37,
+          21.65,
+          24.29,
+          25.82,
+          25.47
+        ],
+        "et0_fao_evapotranspiration": [
+          4.93,
+          4.93,
+          5.93,
+          7.43,
+          6.36
+        ]
+      },
+      "weatherUnits": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "temperature_2m_mean": "°C",
+        "relative_humidity_2m_mean": "%",
+        "precipitation_sum": "mm",
+        "rain_sum": "mm",
+        "precipitation_hours": "h",
+        "wind_speed_10m_max": "km/h",
+        "wind_gusts_10m_max": "km/h",
+        "wind_direction_10m_dominant": "°",
+        "shortwave_radiation_sum": "MJ/m²",
+        "et0_fao_evapotranspiration": "mm"
+      }
+    },
+    "lleida": {
+      "ok": true,
+      "coords": {
+        "lat": 41.628333,
+        "lng": 0.595556
+      },
+      "pollen": {
+        "2026-08-06": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 4.42,
+            "max": 6.4,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0.2,
+            "max": 0.4,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.14,
+            "max": 0.5,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 27.29,
+            "max": 36,
+            "hours": 24
+          }
+        },
+        "2026-08-07": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 3.39,
+            "max": 6,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0.09,
+            "max": 0.2,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.21,
+            "max": 0.9,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 28.71,
+            "max": 41,
+            "hours": 24
+          }
+        },
+        "2026-08-08": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 3.25,
+            "max": 5.2,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0.14,
+            "max": 0.3,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.2,
+            "max": 1.6,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 29.5,
+            "max": 47,
+            "hours": 24
+          }
+        },
+        "2026-08-09": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "grass_pollen": {
+            "mean": 4,
+            "max": 4.3,
+            "hours": 3
+          },
+          "mugwort_pollen": {
+            "mean": 0.13,
+            "max": 0.2,
+            "hours": 3
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "ragweed_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "european_aqi": {
+            "mean": 31,
+            "max": 42,
+            "hours": 24
+          }
+        },
+        "2026-08-10": {
+          "alder_pollen": null,
+          "birch_pollen": null,
+          "grass_pollen": null,
+          "mugwort_pollen": null,
+          "olive_pollen": null,
+          "ragweed_pollen": null,
+          "european_aqi": {
+            "mean": 29.31,
+            "max": 46,
+            "hours": 16
+          }
+        }
+      },
+      "units": {
+        "time": "iso8601",
+        "alder_pollen": "grains/m³",
+        "birch_pollen": "grains/m³",
+        "grass_pollen": "grains/m³",
+        "mugwort_pollen": "grains/m³",
+        "olive_pollen": "grains/m³",
+        "ragweed_pollen": "grains/m³",
+        "european_aqi": "EAQI"
+      },
+      "weather": {
+        "time": [
+          "2026-08-06",
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10"
+        ],
+        "weather_code": [
+          80,
+          3,
+          80,
+          3,
+          3
+        ],
+        "temperature_2m_max": [
+          36.4,
+          38.1,
+          37.3,
+          38.6,
+          37.7
+        ],
+        "temperature_2m_min": [
+          24.1,
+          24.9,
+          24.3,
+          23.9,
+          25.2
+        ],
+        "temperature_2m_mean": [
+          29.4,
+          30.4,
+          29.9,
+          30.8,
+          30.6
+        ],
+        "relative_humidity_2m_mean": [
+          53,
+          56,
+          56,
+          49,
+          45
+        ],
+        "precipitation_sum": [
+          0.8,
+          0,
+          0.7,
+          0,
+          0.3
+        ],
+        "rain_sum": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "precipitation_hours": [
+          4,
+          0,
+          1,
+          0,
+          3
+        ],
+        "wind_speed_10m_max": [
+          11.6,
+          18.1,
+          20.5,
+          21.7,
+          15.5
+        ],
+        "wind_gusts_10m_max": [
+          28.1,
+          37.8,
+          62.3,
+          45.7,
+          32.8
+        ],
+        "wind_direction_10m_dominant": [
+          181,
+          206,
+          71,
+          134,
+          120
+        ],
+        "shortwave_radiation_sum": [
+          23.81,
+          25.48,
+          21.21,
+          24.65,
+          21.22
+        ],
+        "et0_fao_evapotranspiration": [
+          5.71,
+          6.37,
+          5.6,
+          7.16,
+          6.09
+        ]
+      },
+      "weatherUnits": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "temperature_2m_mean": "°C",
+        "relative_humidity_2m_mean": "%",
+        "precipitation_sum": "mm",
+        "rain_sum": "mm",
+        "precipitation_hours": "h",
+        "wind_speed_10m_max": "km/h",
+        "wind_gusts_10m_max": "km/h",
+        "wind_direction_10m_dominant": "°",
+        "shortwave_radiation_sum": "MJ/m²",
+        "et0_fao_evapotranspiration": "mm"
+      }
+    },
+    "manresa": {
+      "ok": true,
+      "coords": {
+        "lat": 41.720183,
+        "lng": 1.839867
+      },
+      "pollen": {
+        "2026-08-06": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 3.39,
+            "max": 4.9,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0.02,
+            "max": 0.1,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.1,
+            "max": 0.2,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 33.71,
+            "max": 49,
+            "hours": 24
+          }
+        },
+        "2026-08-07": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 2,
+            "max": 3.4,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.22,
+            "max": 0.8,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 30.63,
+            "max": 46,
+            "hours": 24
+          }
+        },
+        "2026-08-08": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 1.97,
+            "max": 5.5,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.08,
+            "max": 0.2,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 28.83,
+            "max": 45,
+            "hours": 24
+          }
+        },
+        "2026-08-09": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "grass_pollen": {
+            "mean": 2.3,
+            "max": 3,
+            "hours": 3
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "ragweed_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "european_aqi": {
+            "mean": 35.88,
+            "max": 49,
+            "hours": 24
+          }
+        },
+        "2026-08-10": {
+          "alder_pollen": null,
+          "birch_pollen": null,
+          "grass_pollen": null,
+          "mugwort_pollen": null,
+          "olive_pollen": null,
+          "ragweed_pollen": null,
+          "european_aqi": {
+            "mean": 32.38,
+            "max": 59,
+            "hours": 16
+          }
+        }
+      },
+      "units": {
+        "time": "iso8601",
+        "alder_pollen": "grains/m³",
+        "birch_pollen": "grains/m³",
+        "grass_pollen": "grains/m³",
+        "mugwort_pollen": "grains/m³",
+        "olive_pollen": "grains/m³",
+        "ragweed_pollen": "grains/m³",
+        "european_aqi": "EAQI"
+      },
+      "weather": {
+        "time": [
+          "2026-08-06",
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10"
+        ],
+        "weather_code": [
+          80,
+          45,
+          95,
+          45,
+          3
+        ],
+        "temperature_2m_max": [
+          34.2,
+          34.3,
+          35.3,
+          36.6,
+          35.8
+        ],
+        "temperature_2m_min": [
+          19.8,
+          21.1,
+          20.8,
+          20.7,
+          19.7
+        ],
+        "temperature_2m_mean": [
+          26.8,
+          27.7,
+          26.6,
+          28.2,
+          27.8
+        ],
+        "relative_humidity_2m_mean": [
+          67,
+          69,
+          72,
+          63,
+          57
+        ],
+        "precipitation_sum": [
+          0.9,
+          1.4,
+          7.6,
+          0,
+          0
+        ],
+        "rain_sum": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "precipitation_hours": [
+          4,
+          7,
+          2,
+          0,
+          0
+        ],
+        "wind_speed_10m_max": [
+          17,
+          18,
+          19.3,
+          18.4,
+          20.3
+        ],
+        "wind_gusts_10m_max": [
+          34.2,
+          33.8,
+          56.5,
+          36,
+          37.4
+        ],
+        "wind_direction_10m_dominant": [
+          200,
+          198,
+          208,
+          196,
+          170
+        ],
+        "shortwave_radiation_sum": [
+          21.02,
+          23.23,
+          22.51,
+          25.83,
+          25.25
+        ],
+        "et0_fao_evapotranspiration": [
+          4.79,
+          5.59,
+          4.91,
+          6.42,
+          6.2
+        ]
+      },
+      "weatherUnits": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "temperature_2m_mean": "°C",
+        "relative_humidity_2m_mean": "%",
+        "precipitation_sum": "mm",
+        "rain_sum": "mm",
+        "precipitation_hours": "h",
+        "wind_speed_10m_max": "km/h",
+        "wind_gusts_10m_max": "km/h",
+        "wind_direction_10m_dominant": "°",
+        "shortwave_radiation_sum": "MJ/m²",
+        "et0_fao_evapotranspiration": "mm"
+      }
+    },
+    "roquetes": {
+      "ok": true,
+      "coords": {
+        "lat": 40.820272,
+        "lng": 0.493232
+      },
+      "pollen": {
+        "2026-08-06": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 1.81,
+            "max": 3.8,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.05,
+            "max": 0.3,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 29.04,
+            "max": 39,
+            "hours": 24
+          }
+        },
+        "2026-08-07": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 2.06,
+            "max": 3.4,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0.1,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.08,
+            "max": 0.4,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 28.17,
+            "max": 41,
+            "hours": 24
+          }
+        },
+        "2026-08-08": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 1.21,
+            "max": 1.9,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.01,
+            "max": 0.1,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 30,
+            "max": 38,
+            "hours": 24
+          }
+        },
+        "2026-08-09": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "grass_pollen": {
+            "mean": 1.4,
+            "max": 1.4,
+            "hours": 3
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "ragweed_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "european_aqi": {
+            "mean": 30.33,
+            "max": 39,
+            "hours": 24
+          }
+        },
+        "2026-08-10": {
+          "alder_pollen": null,
+          "birch_pollen": null,
+          "grass_pollen": null,
+          "mugwort_pollen": null,
+          "olive_pollen": null,
+          "ragweed_pollen": null,
+          "european_aqi": {
+            "mean": 27.13,
+            "max": 43,
+            "hours": 16
+          }
+        }
+      },
+      "units": {
+        "time": "iso8601",
+        "alder_pollen": "grains/m³",
+        "birch_pollen": "grains/m³",
+        "grass_pollen": "grains/m³",
+        "mugwort_pollen": "grains/m³",
+        "olive_pollen": "grains/m³",
+        "ragweed_pollen": "grains/m³",
+        "european_aqi": "EAQI"
+      },
+      "weather": {
+        "time": [
+          "2026-08-06",
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10"
+        ],
+        "weather_code": [
+          80,
+          3,
+          45,
+          45,
+          45
+        ],
+        "temperature_2m_max": [
+          34.6,
+          34.3,
+          34.2,
+          35.5,
+          33.6
+        ],
+        "temperature_2m_min": [
+          24.9,
+          24.1,
+          24.6,
+          24.5,
+          24.4
+        ],
+        "temperature_2m_mean": [
+          29.1,
+          28.9,
+          29,
+          29.4,
+          28.6
+        ],
+        "relative_humidity_2m_mean": [
+          65,
+          63,
+          72,
+          70,
+          72
+        ],
+        "precipitation_sum": [
+          0.6,
+          0,
+          0,
+          0,
+          0
+        ],
+        "rain_sum": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "precipitation_hours": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "wind_speed_10m_max": [
+          16.9,
+          18.8,
+          19.3,
+          21,
+          19.5
+        ],
+        "wind_gusts_10m_max": [
+          38.2,
+          41.4,
+          40.3,
+          46.4,
+          44.3
+        ],
+        "wind_direction_10m_dominant": [
+          146,
+          153,
+          151,
+          156,
+          161
+        ],
+        "shortwave_radiation_sum": [
+          23.37,
+          24.68,
+          21.13,
+          25.14,
+          19.31
+        ],
+        "et0_fao_evapotranspiration": [
+          5.45,
+          5.82,
+          5.27,
+          6.29,
+          4.93
+        ]
+      },
+      "weatherUnits": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "temperature_2m_mean": "°C",
+        "relative_humidity_2m_mean": "%",
+        "precipitation_sum": "mm",
+        "rain_sum": "mm",
+        "precipitation_hours": "h",
+        "wind_speed_10m_max": "km/h",
+        "wind_gusts_10m_max": "km/h",
+        "wind_direction_10m_dominant": "°",
+        "shortwave_radiation_sum": "MJ/m²",
+        "et0_fao_evapotranspiration": "mm"
+      }
+    },
+    "tarragona": {
+      "ok": true,
+      "coords": {
+        "lat": 41.120039,
+        "lng": 1.243864
+      },
+      "pollen": {
+        "2026-08-06": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 1.05,
+            "max": 2,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0.1,
+            "max": 0.2,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.03,
+            "max": 0.1,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 32.13,
+            "max": 41,
+            "hours": 24
+          }
+        },
+        "2026-08-07": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 0.77,
+            "max": 1.1,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0.05,
+            "max": 0.1,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.05,
+            "max": 0.1,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 29.79,
+            "max": 40,
+            "hours": 24
+          }
+        },
+        "2026-08-08": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 0.6,
+            "max": 0.8,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0.02,
+            "max": 0.1,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.03,
+            "max": 0.1,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 30.38,
+            "max": 39,
+            "hours": 24
+          }
+        },
+        "2026-08-09": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "grass_pollen": {
+            "mean": 0.4,
+            "max": 0.5,
+            "hours": 3
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "ragweed_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "european_aqi": {
+            "mean": 33,
+            "max": 40,
+            "hours": 24
+          }
+        },
+        "2026-08-10": {
+          "alder_pollen": null,
+          "birch_pollen": null,
+          "grass_pollen": null,
+          "mugwort_pollen": null,
+          "olive_pollen": null,
+          "ragweed_pollen": null,
+          "european_aqi": {
+            "mean": 29.56,
+            "max": 50,
+            "hours": 16
+          }
+        }
+      },
+      "units": {
+        "time": "iso8601",
+        "alder_pollen": "grains/m³",
+        "birch_pollen": "grains/m³",
+        "grass_pollen": "grains/m³",
+        "mugwort_pollen": "grains/m³",
+        "olive_pollen": "grains/m³",
+        "ragweed_pollen": "grains/m³",
+        "european_aqi": "EAQI"
+      },
+      "weather": {
+        "time": [
+          "2026-08-06",
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10"
+        ],
+        "weather_code": [
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "temperature_2m_max": [
+          30.6,
+          30.6,
+          31,
+          31,
+          30.8
+        ],
+        "temperature_2m_min": [
+          25.8,
+          25.4,
+          26,
+          25.8,
+          25.2
+        ],
+        "temperature_2m_mean": [
+          28.3,
+          28.2,
+          28.5,
+          28.5,
+          28.4
+        ],
+        "relative_humidity_2m_mean": [
+          75,
+          76,
+          77,
+          77,
+          74
+        ],
+        "precipitation_sum": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "rain_sum": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "precipitation_hours": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "wind_speed_10m_max": [
+          14.2,
+          16.6,
+          15.1,
+          12,
+          14.7
+        ],
+        "wind_gusts_10m_max": [
+          31,
+          34.2,
+          32,
+          26.6,
+          31.7
+        ],
+        "wind_direction_10m_dominant": [
+          165,
+          200,
+          154,
+          152,
+          109
+        ],
+        "shortwave_radiation_sum": [
+          24.21,
+          25.31,
+          21.47,
+          23.62,
+          22.37
+        ],
+        "et0_fao_evapotranspiration": [
+          5.01,
+          5.22,
+          4.51,
+          4.87,
+          4.79
+        ]
+      },
+      "weatherUnits": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "temperature_2m_mean": "°C",
+        "relative_humidity_2m_mean": "%",
+        "precipitation_sum": "mm",
+        "rain_sum": "mm",
+        "precipitation_hours": "h",
+        "wind_speed_10m_max": "km/h",
+        "wind_gusts_10m_max": "km/h",
+        "wind_direction_10m_dominant": "°",
+        "shortwave_radiation_sum": "MJ/m²",
+        "et0_fao_evapotranspiration": "mm"
+      }
+    },
+    "vielha": {
+      "ok": true,
+      "coords": {
+        "lat": 42.702339,
+        "lng": 0.797429
+      },
+      "pollen": {
+        "2026-08-06": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 1.51,
+            "max": 2.7,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.09,
+            "max": 0.2,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 21.79,
+            "max": 27,
+            "hours": 24
+          }
+        },
+        "2026-08-07": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 2.45,
+            "max": 4,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.03,
+            "max": 0.2,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 23.38,
+            "max": 28,
+            "hours": 24
+          }
+        },
+        "2026-08-08": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 2.24,
+            "max": 4.2,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.14,
+            "max": 0.4,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 27.54,
+            "max": 32,
+            "hours": 24
+          }
+        },
+        "2026-08-09": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "grass_pollen": {
+            "mean": 3.23,
+            "max": 3.3,
+            "hours": 3
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "ragweed_pollen": {
+            "mean": 0.1,
+            "max": 0.1,
+            "hours": 3
+          },
+          "european_aqi": {
+            "mean": 28.38,
+            "max": 45,
+            "hours": 24
+          }
+        },
+        "2026-08-10": {
+          "alder_pollen": null,
+          "birch_pollen": null,
+          "grass_pollen": null,
+          "mugwort_pollen": null,
+          "olive_pollen": null,
+          "ragweed_pollen": null,
+          "european_aqi": {
+            "mean": 19,
+            "max": 41,
+            "hours": 16
+          }
+        }
+      },
+      "units": {
+        "time": "iso8601",
+        "alder_pollen": "grains/m³",
+        "birch_pollen": "grains/m³",
+        "grass_pollen": "grains/m³",
+        "mugwort_pollen": "grains/m³",
+        "olive_pollen": "grains/m³",
+        "ragweed_pollen": "grains/m³",
+        "european_aqi": "EAQI"
+      },
+      "weather": {
+        "time": [
+          "2026-08-06",
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10"
+        ],
+        "weather_code": [
+          53,
+          3,
+          55,
+          3,
+          3
+        ],
+        "temperature_2m_max": [
+          25.9,
+          29.9,
+          30.8,
+          29.5,
+          30.7
+        ],
+        "temperature_2m_min": [
+          16.2,
+          14.5,
+          18.7,
+          20.6,
+          18.9
+        ],
+        "temperature_2m_mean": [
+          20.5,
+          22.1,
+          24.1,
+          25,
+          24.9
+        ],
+        "relative_humidity_2m_mean": [
+          78,
+          58,
+          58,
+          47,
+          46
+        ],
+        "precipitation_sum": [
+          0.38,
+          0,
+          2.2,
+          0,
+          0.15
+        ],
+        "rain_sum": [
+          0.38,
+          0,
+          2.2,
+          0,
+          0.15
+        ],
+        "precipitation_hours": [
+          1,
+          0,
+          5,
+          0,
+          3
+        ],
+        "wind_speed_10m_max": [
+          9.1,
+          12.7,
+          7.1,
+          6.1,
+          8.7
+        ],
+        "wind_gusts_10m_max": [
+          27.4,
+          31.7,
+          36.4,
+          36,
+          32
+        ],
+        "wind_direction_10m_dominant": [
+          39,
+          331,
+          174,
+          136,
+          180
+        ],
+        "shortwave_radiation_sum": [
+          22.14,
+          27.68,
+          22.34,
+          26.35,
+          23.84
+        ],
+        "et0_fao_evapotranspiration": [
+          4.17,
+          5.64,
+          4.62,
+          5.49,
+          5.27
+        ]
+      },
+      "weatherUnits": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "temperature_2m_mean": "°C",
+        "relative_humidity_2m_mean": "%",
+        "precipitation_sum": "mm",
+        "rain_sum": "mm",
+        "precipitation_hours": "h",
+        "wind_speed_10m_max": "km/h",
+        "wind_gusts_10m_max": "km/h",
+        "wind_direction_10m_dominant": "°",
+        "shortwave_radiation_sum": "MJ/m²",
+        "et0_fao_evapotranspiration": "mm"
+      }
+    },
+    "balears": {
+      "ok": true,
+      "coords": {
+        "lat": 39.607366,
+        "lng": 2.645323
+      },
+      "pollen": {
+        "2026-08-06": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 0.59,
+            "max": 0.7,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0.05,
+            "max": 0.1,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0,
+            "max": 0.1,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 31.67,
+            "max": 45,
+            "hours": 24
+          }
+        },
+        "2026-08-07": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 0.58,
+            "max": 0.9,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.05,
+            "max": 0.1,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 31.63,
+            "max": 48,
+            "hours": 24
+          }
+        },
+        "2026-08-08": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "grass_pollen": {
+            "mean": 0.35,
+            "max": 0.6,
+            "hours": 24
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 24
+          },
+          "ragweed_pollen": {
+            "mean": 0.05,
+            "max": 0.1,
+            "hours": 24
+          },
+          "european_aqi": {
+            "mean": 30.08,
+            "max": 42,
+            "hours": 24
+          }
+        },
+        "2026-08-09": {
+          "alder_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "birch_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "grass_pollen": {
+            "mean": 0.3,
+            "max": 0.4,
+            "hours": 3
+          },
+          "mugwort_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "olive_pollen": {
+            "mean": 0,
+            "max": 0,
+            "hours": 3
+          },
+          "ragweed_pollen": {
+            "mean": 0.03,
+            "max": 0.1,
+            "hours": 3
+          },
+          "european_aqi": {
+            "mean": 31.67,
+            "max": 39,
+            "hours": 24
+          }
+        },
+        "2026-08-10": {
+          "alder_pollen": null,
+          "birch_pollen": null,
+          "grass_pollen": null,
+          "mugwort_pollen": null,
+          "olive_pollen": null,
+          "ragweed_pollen": null,
+          "european_aqi": {
+            "mean": 29.75,
+            "max": 39,
+            "hours": 16
+          }
+        }
+      },
+      "units": {
+        "time": "iso8601",
+        "alder_pollen": "grains/m³",
+        "birch_pollen": "grains/m³",
+        "grass_pollen": "grains/m³",
+        "mugwort_pollen": "grains/m³",
+        "olive_pollen": "grains/m³",
+        "ragweed_pollen": "grains/m³",
+        "european_aqi": "EAQI"
+      },
+      "weather": {
+        "time": [
+          "2026-08-06",
+          "2026-08-07",
+          "2026-08-08",
+          "2026-08-09",
+          "2026-08-10"
+        ],
+        "weather_code": [
+          3,
+          2,
+          45,
+          0,
+          3
+        ],
+        "temperature_2m_max": [
+          33.6,
+          34.1,
+          34.4,
+          36.2,
+          35.5
+        ],
+        "temperature_2m_min": [
+          24.7,
+          24.5,
+          25.4,
+          25.3,
+          25.2
+        ],
+        "temperature_2m_mean": [
+          29.1,
+          29.2,
+          29.5,
+          30.5,
+          29.9
+        ],
+        "relative_humidity_2m_mean": [
+          67,
+          66,
+          69,
+          54,
+          61
+        ],
+        "precipitation_sum": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "rain_sum": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "precipitation_hours": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "wind_speed_10m_max": [
+          12.1,
+          11.6,
+          14.5,
+          17,
+          17.7
+        ],
+        "wind_gusts_10m_max": [
+          29.5,
+          28.4,
+          34.6,
+          39.2,
+          41.4
+        ],
+        "wind_direction_10m_dominant": [
+          194,
+          212,
+          179,
+          139,
+          164
+        ],
+        "shortwave_radiation_sum": [
+          22.97,
+          25.98,
+          26.64,
+          26.92,
+          26.18
+        ],
+        "et0_fao_evapotranspiration": [
+          5.22,
+          5.82,
+          5.94,
+          6.66,
+          6.19
+        ]
+      },
+      "weatherUnits": {
+        "time": "iso8601",
+        "weather_code": "wmo code",
+        "temperature_2m_max": "°C",
+        "temperature_2m_min": "°C",
+        "temperature_2m_mean": "°C",
+        "relative_humidity_2m_mean": "%",
+        "precipitation_sum": "mm",
+        "rain_sum": "mm",
+        "precipitation_hours": "h",
+        "wind_speed_10m_max": "km/h",
+        "wind_gusts_10m_max": "km/h",
+        "wind_direction_10m_dominant": "°",
+        "shortwave_radiation_sum": "MJ/m²",
+        "et0_fao_evapotranspiration": "mm"
+      }
+    }
+  }
+}
