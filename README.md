@@ -8,7 +8,9 @@ Static data repository for the [canIbreathe](https://github.com/arnautresserras/
 |---|---|
 | `season-calendars.json` | Per-station pollen season windows for all 9 PIA stations — **fetched by the app at runtime** |
 | `stations.json` | PIA station list + fallback coordinates, used by the snapshot job |
+| `stations-meteoswiss.json` | The 15 MeteoSwiss automatic pollen traps. Sample points only — nothing is fetched *from* MeteoSwiss by the daily job. See [Hourly forecast verification](#hourly-forecast-verification) |
 | `snapshots/` | Daily archive of what each source *forecast* — see [Forecast snapshots](#forecast-snapshots) |
+| `measured/` | **Gitignored.** On-demand mirror of MeteoSwiss measured data — see [Hourly forecast verification](#hourly-forecast-verification) |
 
 ## Fetch URL
 
@@ -147,11 +149,102 @@ One file per source per day, all 9 stations inside. Every file carries `date`
 | Source | Granularity | Notes |
 |---|---|---|
 | PIA | One level `0`–`4` per taxon **per week**, plus a trend symbol (`A` increase, `=` stable, `D` decrease, `!` exceptional) | Not a per-day numeric forecast. The taxon set varies week to week, so it is stored as raw XML and re-parsed at analysis time. `stationMeta` records each week's validity window. |
-| Open-Meteo | Hourly grains/m³ for 6 CAMS taxa, 5-day horizon | Aggregated to per-day mean/max. Hourly is dropped on purpose — the measured data is a daily total, so hourly adds size without adding anything verifiable. |
+| Open-Meteo | Hourly grains/m³ for 6 CAMS taxa, 5-day horizon | Per-day mean/max **plus the full hourly series** (schema 2, retained from 2026-08-12) and `hourlyCoverage`. Hourly used to be dropped; see [Hourly forecast verification](#hourly-forecast-verification) for why that changed. Hourly `european_aqi` is still dropped — nothing verifies it. |
 | Google Pollen | Daily UPI index, 5-day horizon | Requested with `plantsDescription=false` to drop static boilerplate. |
 
 Gridded sources are sampled at each trap's **exact coordinates as reported by the
 PIA API**, not the app's rounded constants — several differ by 2–4 km.
+
+Open-Meteo is additionally sampled at the **15 MeteoSwiss traps**, so 24 stations
+appear in each `openmeteo` file, each tagged with its own `network` (`pia` /
+`meteoswiss`) and `timezone`. PIA and Google are **not** widened to the Swiss
+points: PIA has nothing to say about them, and Google is metered — the billed
+volume stays at 9 calls/day.
+
+---
+
+## Hourly forecast verification
+
+### Why hourly is now retained
+
+The app's hourly pollen chart and its **"best time to go out"** window are built on
+Open-Meteo's hourly pollen — for **every European location, including PIA ones**,
+because PIA publishes one level per taxon per *week* and has no sub-day
+granularity at all. That intraday shape has never been verified by anyone.
+
+It couldn't be, until now: PIA's measured data is a **daily total**, and so is
+Google's index and every regional source evaluated for this project. **MeteoSwiss
+publishes real hourly measured concentrations** — free, no key, CC BY — for 7 taxa
+across 15 stations since 2023-01-01. Three of those taxa (`alnus`, `betula`,
+`poaceae`) overlap Open-Meteo/CAMS, which makes the hourly comparison possible for
+the first time.
+
+So the 15 Swiss traps are **an instrument, not an audience** — Switzerland has
+approximately no app users. What they validate is a model that serves everyone in
+Europe.
+
+### The one thing that is unrecoverable
+
+Only the **issued forecast** is ephemeral. The air-quality endpoint's past window
+returns **re-analysed** values, not the forecast that was published, so a day not
+captured here can never be paired against what a user was actually shown.
+
+MeteoSwiss measurements, by contrast, are permanently archived by MeteoSwiss
+(`_recent`, `_historical`). They are therefore **deliberately not snapshotted
+daily** — doing so would add megabytes a day to a public repo to duplicate
+something already durable. Pull them on demand instead:
+
+```
+node scripts/fetch-meteoswiss-measured.mjs                 # hourly, current year
+node scripts/fetch-meteoswiss-measured.mjs --historical     # + archived blocks
+node scripts/fetch-meteoswiss-measured.mjs --now --stations=PZH   # quick probe
+```
+
+Output lands in `measured/meteoswiss/` with a `manifest.json`, and is **gitignored**.
+
+### Swiss traps are sampled in UTC
+
+MeteoSwiss publishes its measured timestamps in **UTC**, so the forecast is
+sampled in UTC at those coordinates while PIA traps stay on `Europe/Madrid`. Both
+countries share the CET/CEST offset, so this is a labelling choice rather than a
+different set of hours — but it removes a timezone conversion from the pairing
+step, and a silent 1 h shift would corrupt the timing metric that is the whole
+point of the exercise. Every station records its own `timezone`.
+
+### Reading the archive
+
+- **Parse MeteoSwiss CSVs by header name, never by column index.** The live header
+  orders birch before grasses before alder — neither alphabetical nor the
+  documented order.
+- MeteoSwiss timestamps are `DD.MM.YYYY HH:MM` in UTC. **Not ISO** — `new Date()`
+  on that string is invalid or engine-dependent.
+- In a MeteoSwiss CSV, an **empty cell means "not reported"**; `0` is a real zero.
+  Conflating them deflates every statistic with no error to alert you.
+- Prefer the `*d1` daily variant (00→00 UTC) over `*d0` (06→06 UTC) when a daily
+  aggregate is needed.
+
+### `hourlyCoverage`, and what it already found
+
+Each station records how many hours each taxon actually carries, plus the last
+such timestamp. CAMS pollen **does not reach the end of the requested window**,
+and without this a short day is indistinguishable from a genuinely calm one —
+both aggregate to a low number.
+
+It immediately showed something about the 05:10 UTC runs: on **14 of the 15 days
+archived so far**, the hour counts per forecast day were `[24, 24, 24, 3, 0]`. The
+4th day carries **three early-morning hours**, and the 5th nothing at all. Since
+pollen typically peaks around midday, any daily figure derived from those three
+hours under-reports. Worth keeping in mind before trusting the tail of any
+Open-Meteo forecast day, here or in the app.
+
+### Archive cost
+
+~270 KB/day raw, but small repeated numbers compress well: **~18 KB/day compressed,
+roughly 6 MB/year**. Two levers exist if that ever matters — hoist the shared
+`time` axis (saves ~20 %, at the cost of putting an indirection between a value
+and its hour, which is a bad trade for timing data), or prune years already
+analysed. Neither is needed now. CI is unaffected: `actions/checkout` fetches a
+shallow tree, not history.
 
 ### Running it
 

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "description": "MeteoSwiss automatic pollen traps. Sample-only reference points: nothing is fetched *from* MeteoSwiss by the daily snapshot job, these coordinates exist so the gridded forecast sources can be sampled where a real hourly measurement is taken. See README 'Hourly forecast verification'.",
+  "source": {
+    "name": "MeteoSwiss Open Government Data - ogd-pollen_meta_stations.csv",
+    "url": "https://data.geo.admin.ch/api/stac/v1/collections/ch.meteoschweiz.ogd-pollen",
+    "licence": "CC BY - attribution wording: 'Source: MeteoSwiss'",
+    "retrieved": "2026-08-12"
+  },
+  "notes": [
+    "15 stations, not the 29 quoted in the canIbreathe operator-directory report or the 16 in the STAC collection description. The metadata CSV is authoritative.",
+    "The automatic network measures 7 taxa hourly since 2023-01-01. Only alnus, betula and poaceae overlap with Open-Meteo/CAMS, so only those three are verifiable.",
+    "tz is UTC on purpose: MeteoSwiss publishes its timestamps in UTC, so sampling the forecast in UTC removes a timezone conversion from the pairing step. A 1h error would corrupt the timing metric, which is the whole point of the study.",
+    "alps: N = north of the Alps, S = south (Mediterranean-influenced, most transferable to Catalonia), A = alpine/high-altitude (least transferable). Used to segment results."
+  ],
+  "stations": [
+    { "id": "PBE", "name": "Bern",              "lat": 46.950342, "lng": 7.424661, "altitude": 546,  "canton": "BE", "tz": "UTC", "alps": "N" },
+    { "id": "PBS", "name": "Basel",             "lat": 47.561800, "lng": 7.583931, "altitude": 256,  "canton": "BS", "tz": "UTC", "alps": "N" },
+    { "id": "PBU", "name": "Buchs SG",          "lat": 47.173267, "lng": 9.472614, "altitude": 446,  "canton": "SG", "tz": "UTC", "alps": "N" },
+    { "id": "PCF", "name": "La Chaux-de-Fonds", "lat": 47.113514, "lng": 6.832000, "altitude": 1037, "canton": "NE", "tz": "UTC", "alps": "N" },
+    { "id": "PDS", "name": "Davos/Wolfgang",    "lat": 46.829092, "lng": 9.855489, "altitude": 1591, "canton": "GR", "tz": "UTC", "alps": "A" },
+    { "id": "PGE", "name": "Geneve",            "lat": 46.191969, "lng": 6.147544, "altitude": 379,  "canton": "GE", "tz": "UTC", "alps": "N" },
+    { "id": "PLO", "name": "Locarno/Monti",     "lat": 46.172547, "lng": 8.787389, "altitude": 376,  "canton": "TI", "tz": "UTC", "alps": "S" },
+    { "id": "PLS", "name": "Lausanne",          "lat": 46.524103, "lng": 6.644825, "altitude": 576,  "canton": "VD", "tz": "UTC", "alps": "N" },
+    { "id": "PLU", "name": "Lugano",            "lat": 46.004231, "lng": 8.960631, "altitude": 275,  "canton": "TI", "tz": "UTC", "alps": "S" },
+    { "id": "PLZ", "name": "Luzern",            "lat": 47.057678, "lng": 8.296803, "altitude": 463,  "canton": "LU", "tz": "UTC", "alps": "N" },
+    { "id": "PMU", "name": "Munsterlingen",     "lat": 47.630206, "lng": 9.236878, "altitude": 415,  "canton": "TG", "tz": "UTC", "alps": "N" },
+    { "id": "PNE", "name": "Neuchatel",         "lat": 47.000269, "lng": 6.949828, "altitude": 490,  "canton": "NE", "tz": "UTC", "alps": "N" },
+    { "id": "PPY", "name": "Payerne",           "lat": 46.813403, "lng": 6.942939, "altitude": 490,  "canton": "VD", "tz": "UTC", "alps": "N" },
+    { "id": "PSN", "name": "Sion",              "lat": 46.235403, "lng": 7.384606, "altitude": 494,  "canton": "VS", "tz": "UTC", "alps": "A" },
+    { "id": "PZH", "name": "Zurich",            "lat": 47.378225, "lng": 8.565644, "altitude": 559,  "canton": "ZH", "tz": "UTC", "alps": "N" }
+  ]
+}

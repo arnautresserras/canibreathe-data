@@ -1,0 +1,14 @@
+# Measured data mirrors. Downloaded on demand by scripts/fetch-meteoswiss-measured.mjs.
+#
+# Not committed: MeteoSwiss permanently archives its own measurements (CC BY,
+# _recent + _historical), so a mirror here adds tens of megabytes to a public repo
+# without adding durability. Only the *issued forecast* is ephemeral, and that is
+# what snapshots/ is for.
+#
+# PIA's measured concentration data must never be committed here at all — this
+# repository is public and that data is not covered by PIA's CC BY-NC-SA public
+# forecast licence. Keep it in a private repository. See README.
+measured/
+
+node_modules/
+.DS_Store
