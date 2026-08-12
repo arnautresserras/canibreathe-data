@@ -133,6 +133,29 @@ if (targets.length === 0) {
 const outDir = join(REPO_ROOT, 'measured', 'meteoswiss');
 await mkdir(outDir, { recursive: true });
 
+// Asset names are discovered from the STAC item, never constructed. Hourly
+// history is published in decade blocks — `ogd-pollen_pzh_h_historical_2020-2029.csv`,
+// not `..._h_historical.csv` — and guessing the latter returns **403, not 404**
+// (S3 denies listing), which reads like an auth problem rather than a wrong path.
+// Discovery also picks up a 2030-2039 block automatically when it appears.
+const itemsResponse = await fetchWithRetry(`${STAC}/items?limit=100`);
+if (!itemsResponse.ok) {
+  console.error(`Could not list STAC items: ${itemsResponse.error}`);
+  process.exit(1);
+}
+const items = JSON.parse(itemsResponse.body).features ?? [];
+const assetsByStation = new Map(
+  items.map((item) => [String(item.id).toUpperCase(), Object.keys(item.assets ?? {})])
+);
+
+// The collection publishes more items than the metadata CSV lists stations
+// (19 vs 15 as of 2026-08-12) — most likely decommissioned sites that retain an
+// archive. Surfaced rather than silently ignored: an extra item with real history
+// is a station this project could be using.
+const extraItems = [...assetsByStation.keys()].filter(
+  (id) => !stations.some((s) => s.id.toUpperCase() === id)
+);
+
 console.log(
   `MeteoSwiss measured pollen — ${targets.length} station(s), granularity '${granularity}', ` +
   `frequency ${frequencies.join(' + ')}\nSource: MeteoSwiss (CC BY). Writing to measured/meteoswiss/ (gitignored).\n`
@@ -144,27 +167,36 @@ const unknownColumns = new Set();
 
 for (const station of targets) {
   const abbr = station.id.toLowerCase();
-  for (const frequency of frequencies) {
-    const file = `ogd-pollen_${abbr}_${granularity}_${frequency}.csv`;
-    const result = await fetchWithRetry(`${BASE}/${abbr}/${file}`);
+  const available = assetsByStation.get(station.id.toUpperCase()) ?? [];
 
-    if (!result.ok) {
-      // `historical` legitimately doesn't exist for a station whose automatic
-      // record starts inside the current decade, so a 404 there isn't a failure.
-      const benign = frequency === 'historical' && result.status === 404;
-      if (!benign) failures += 1;
-      console.log(`  ${station.id}/${frequency}: ${benign ? 'not published' : `FAILED — ${result.error}`}`);
+  for (const frequency of frequencies) {
+    // Match `_<granularity>_<frequency>` and allow a trailing decade suffix.
+    const matching = available.filter((name) =>
+      new RegExp(`_${granularity}_${frequency}(_\\d{4}-\\d{4})?\\.csv$`).test(name)
+    );
+    if (matching.length === 0) {
+      console.log(`  ${station.id}/${frequency}: not published`);
       continue;
     }
 
-    await writeFile(join(outDir, file), result.body, 'utf8');
-    const info = inspectCsv(result.body);
-    info.unknown.forEach((c) => unknownColumns.add(c));
-    summary.push({ station: station.id, frequency, ...info, bytes: result.body.length });
-    console.log(
-      `  ${station.id}/${frequency}: ${info.rows} rows, ${info.known.length} known taxa, ` +
-      `${(result.body.length / 1024).toFixed(0)} KB  [${info.first ?? '-'} → ${info.last ?? '-'}]`
-    );
+    for (const file of matching) {
+      const result = await fetchWithRetry(`${BASE}/${abbr}/${file}`);
+
+      if (!result.ok) {
+        failures += 1;
+        console.log(`  ${station.id}/${frequency}: FAILED — ${result.error} (${file})`);
+        continue;
+      }
+
+      await writeFile(join(outDir, file), result.body, 'utf8');
+      const info = inspectCsv(result.body);
+      info.unknown.forEach((c) => unknownColumns.add(c));
+      summary.push({ station: station.id, frequency, file, ...info, bytes: result.body.length });
+      console.log(
+        `  ${station.id}/${frequency}: ${info.rows} rows, ${info.known.length} known taxa, ` +
+        `${(result.body.length / 1024).toFixed(0)} KB  [${info.first ?? '-'} → ${info.last ?? '-'}]  ${file}`
+      );
+    }
   }
 }
 
@@ -194,6 +226,13 @@ await writeFile(
 
 console.log(`\nWrote ${summary.length} file(s) + manifest.json to measured/meteoswiss/`);
 
+if (extraItems.length > 0) {
+  console.log(
+    `\nNote: the collection has ${assetsByStation.size} items but stations-meteoswiss.json lists ` +
+    `${stations.length}. Not in the station table: ${extraItems.join(', ')} — likely decommissioned ` +
+    `sites that kept an archive. Worth a look if more history would help.`
+  );
+}
 if (unknownColumns.size > 0) {
   console.warn(
     `\n⚠ Unrecognised columns served: ${[...unknownColumns].join(', ')} — ` +
