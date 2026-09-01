@@ -1,0 +1,4899 @@
+{
+  "schema": 1,
+  "source": "Google Pollen API",
+  "note": "plantsDescription=false. Forecast horizon 5 days from 2026-09-01.",
+  "date": "2026-09-01",
+  "fetchedAtUtc": "2026-09-01T10:00:44.393Z",
+  "stations": {
+    "bellaterra": {
+      "ok": true,
+      "response": {
+        "regionCode": "ES",
+        "dailyInfo": [
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 1
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 2
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 3
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 2,
+                  "category": "Low",
+                  "indexDescription": "People with high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "red": 0.5176471,
+                    "green": 0.8117647,
+                    "blue": 0.2
+                  }
+                },
+                "healthRecommendations": [
+                  "It's a good day for outdoor activities since pollen levels are low.",
+                  "Do you know which plants cause your pollen allergy? Check out the pollen data to be prepared."
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 2,
+                  "category": "Low",
+                  "indexDescription": "People with high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "red": 0.5176471,
+                    "green": 0.8117647,
+                    "blue": 0.2
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 4
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 5
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "barcelona": {
+      "ok": true,
+      "response": {
+        "regionCode": "ES",
+        "dailyInfo": [
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 1
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 2
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 3
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 2,
+                  "category": "Low",
+                  "indexDescription": "People with high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "red": 0.5176471,
+                    "green": 0.8117647,
+                    "blue": 0.2
+                  }
+                },
+                "healthRecommendations": [
+                  "It's a good day for outdoor activities since pollen levels are low.",
+                  "Do you know which plants cause your pollen allergy? Check out the pollen data to be prepared."
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 2,
+                  "category": "Low",
+                  "indexDescription": "People with high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "red": 0.5176471,
+                    "green": 0.8117647,
+                    "blue": 0.2
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 4
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 5
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "girona": {
+      "ok": true,
+      "response": {
+        "regionCode": "ES",
+        "dailyInfo": [
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 1
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 2
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 3
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 4
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 5
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "lleida": {
+      "ok": true,
+      "response": {
+        "regionCode": "ES",
+        "dailyInfo": [
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 1
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 2,
+                  "category": "Low",
+                  "indexDescription": "People with high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "red": 0.5176471,
+                    "green": 0.8117647,
+                    "blue": 0.2
+                  }
+                },
+                "healthRecommendations": [
+                  "It's a good day for outdoor activities since pollen levels are low.",
+                  "Do you know which plants cause your pollen allergy? Check out the pollen data to be prepared."
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 2,
+                  "category": "Low",
+                  "indexDescription": "People with high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "red": 0.5176471,
+                    "green": 0.8117647,
+                    "blue": 0.2
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 2
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 2,
+                  "category": "Low",
+                  "indexDescription": "People with high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "red": 0.5176471,
+                    "green": 0.8117647,
+                    "blue": 0.2
+                  }
+                },
+                "healthRecommendations": [
+                  "It's a good day for outdoor activities since pollen levels are low.",
+                  "Do you know which plants cause your pollen allergy? Check out the pollen data to be prepared."
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 2,
+                  "category": "Low",
+                  "indexDescription": "People with high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "red": 0.5176471,
+                    "green": 0.8117647,
+                    "blue": 0.2
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 3
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 2,
+                  "category": "Low",
+                  "indexDescription": "People with high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "red": 0.5176471,
+                    "green": 0.8117647,
+                    "blue": 0.2
+                  }
+                },
+                "healthRecommendations": [
+                  "It's a good day for outdoor activities since pollen levels are low.",
+                  "Do you know which plants cause your pollen allergy? Check out the pollen data to be prepared."
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 2,
+                  "category": "Low",
+                  "indexDescription": "People with high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "red": 0.5176471,
+                    "green": 0.8117647,
+                    "blue": 0.2
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 4
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 5
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "manresa": {
+      "ok": true,
+      "response": {
+        "regionCode": "ES",
+        "dailyInfo": [
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 1
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 2
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 3
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 2,
+                  "category": "Low",
+                  "indexDescription": "People with high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "red": 0.5176471,
+                    "green": 0.8117647,
+                    "blue": 0.2
+                  }
+                },
+                "healthRecommendations": [
+                  "It's a good day for outdoor activities since pollen levels are low.",
+                  "Do you know which plants cause your pollen allergy? Check out the pollen data to be prepared."
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 2,
+                  "category": "Low",
+                  "indexDescription": "People with high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "red": 0.5176471,
+                    "green": 0.8117647,
+                    "blue": 0.2
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 4
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 5
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "roquetes": {
+      "ok": true,
+      "response": {
+        "regionCode": "ES",
+        "dailyInfo": [
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 1
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 2
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 3
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 4
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 5
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "tarragona": {
+      "ok": true,
+      "response": {
+        "regionCode": "ES",
+        "dailyInfo": [
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 1
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 2
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 3
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 4
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 5
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "vielha": {
+      "ok": true,
+      "response": {
+        "regionCode": "ES",
+        "dailyInfo": [
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 1
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 2
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 3
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 2,
+                  "category": "Low",
+                  "indexDescription": "People with high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "red": 0.5176471,
+                    "green": 0.8117647,
+                    "blue": 0.2
+                  }
+                },
+                "healthRecommendations": [
+                  "It's a good day for outdoor activities since pollen levels are low.",
+                  "Do you know which plants cause your pollen allergy? Check out the pollen data to be prepared."
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 2,
+                  "category": "Low",
+                  "indexDescription": "People with high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "red": 0.5176471,
+                    "green": 0.8117647,
+                    "blue": 0.2
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 4
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 5
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "balears": {
+      "ok": true,
+      "response": {
+        "regionCode": "ES",
+        "dailyInfo": [
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 1
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 2
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 3
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                },
+                "healthRecommendations": [
+                  "Pollen levels are very low right now. It's a great day to enjoy the outdoors!"
+                ]
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses",
+                "inSeason": false,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort",
+                "inSeason": true,
+                "indexInfo": {
+                  "code": "UPI",
+                  "displayName": "Universal Pollen Index",
+                  "value": 1,
+                  "category": "Very Low",
+                  "indexDescription": "People with very high allergy to pollen are likely to experience symptoms",
+                  "color": {
+                    "green": 0.61960787,
+                    "blue": 0.22745098
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 4
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          },
+          {
+            "date": {
+              "year": 2026,
+              "month": 9,
+              "day": 5
+            },
+            "pollenTypeInfo": [
+              {
+                "code": "GRASS",
+                "displayName": "Grass"
+              },
+              {
+                "code": "TREE",
+                "displayName": "Tree"
+              },
+              {
+                "code": "WEED",
+                "displayName": "Weed"
+              }
+            ],
+            "plantInfo": [
+              {
+                "code": "HAZEL",
+                "displayName": "Hazel"
+              },
+              {
+                "code": "ASH",
+                "displayName": "Ash"
+              },
+              {
+                "code": "COTTONWOOD",
+                "displayName": "Cottonwood"
+              },
+              {
+                "code": "OAK",
+                "displayName": "Oak"
+              },
+              {
+                "code": "PINE",
+                "displayName": "Pine"
+              },
+              {
+                "code": "BIRCH",
+                "displayName": "Birch"
+              },
+              {
+                "code": "OLIVE",
+                "displayName": "Olive"
+              },
+              {
+                "code": "GRAMINALES",
+                "displayName": "Grasses"
+              },
+              {
+                "code": "RAGWEED",
+                "displayName": "Ragweed"
+              },
+              {
+                "code": "ALDER",
+                "displayName": "Alder"
+              },
+              {
+                "code": "MUGWORT",
+                "displayName": "Mugwort"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
